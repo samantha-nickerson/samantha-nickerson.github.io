@@ -21,14 +21,14 @@ body {
 
 .masthead {
 	background-color: #fff;
-	padding-top: 0.8em;
+	padding-top: 0.6em;
 	border-bottom: 2px solid #e2e2e2;
 	
 }
 
 .logo {
-	width: 2.5em;
-	padding-left: 0.5em;
+	width: 50px;
+	padding-left: 0.4em;
 	
 }
 
@@ -39,7 +39,7 @@ h1 {
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited {
-	top: 1.7em;
+	top: 0.9em;
 	height: 40px;
 	overflow: hidden;
 	position: absolute;
@@ -76,7 +76,6 @@ h1 {
 	padding: 0;
 
 	list-style-type: none;
-	font-size: 1.25em;
 }
 
 .nav a,
@@ -94,7 +93,7 @@ h1 {
 .nav a:focus,
 .nav a:active {
 
-	color: red;
+	color: #e5756b;
 	background-color: #fbfbfb;
 }
 
@@ -116,15 +115,17 @@ h1 {
 	max-height: 50em;
 }
 
-
-
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 35em) {
 
 	h1 {
 		float: left;
 	}
 
+	.logo {
+		width: 65px;
+		padding-left: 0.4em;
 
+	}
 
 	.nav a {
 		border: 0;
@@ -140,6 +141,7 @@ h1 {
 	.nav li {
 		display: inline-block;
 		float: none;
+
 		width: auto;
 		padding-right: 20px;
 	}
@@ -155,7 +157,7 @@ h1 {
 		max-height: 5rem;
 		position:relative;
 		z-index: 100;
-		padding-bottom: 1.8em;
+		padding-bottom: 1em;
 		text-align: right;
 		padding-top: 1em;
 	}
@@ -171,20 +173,21 @@ h1 {
 	padding: 10px 10% 50px 10%; 
 }
 
-.about h2 {
+.about h3 {
 	text-align: center;
+	text-transform: uppercase;
 	padding: 2em 10% 0 10%;
 }
 
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 60em) {
 
 	.about p  {
-		padding: 10px 30% 50px 30%;
+		padding: 10px 18% 50px 18%;
+		color: #555;
 	}
 
-	.about h2  {
-		padding: 2em 20% 0 20%;
+	.about h3  {
+		padding: 2em 18% 0 18%;
 	}
 }
-
 

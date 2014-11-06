@@ -5,8 +5,32 @@ html {
   background-color: #fff;
 
   color: #444;
-  font: light 100%/1.5 sans-serif;
+  font: normal 100%/1.5 sans-serif;
   font-family: 'Open Sans', sans-serif;
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 110%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 120%;
+  }
+
+}
+
+@media only screen and (min-width: 120em) {
+
+  html {
+    font-size: 130%;
+  }
+
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -14,42 +38,42 @@ p, ul, ol, dl, dd, figure,
 blockquote, details, hr,
 fieldset, pre, table {
   margin: 0 0 1.5rem;
-  font-weight: 200;
+  font-weight: lighter;
 }
 
 .yotta {
-  font-size: 2.2807rem;
-  line-height: 1.3154;
+  font-size: 3.5832rem;
+  line-height: 1.2559;
 }
 
 .zetta {
-  font-size: 2.0273rem;
-  line-height: 1.4798;
+  font-size: 2.9860rem;
+  line-height: 1.0047;
 }
 
 h1, .exa {
-  font-size: 1.8020rem;
-  line-height: 1.6648;
+  font-size: 2.4883rem;
+  line-height: 1.2056;
 }
 
 h2, .peta {
-  font-size: 1.6018rem;
-  line-height: 1.8729;
+  font-size: 2.0736rem;
+  line-height: 1.4468;
 }
 
 h3, .tera {
-  font-size: 1.4238rem;
-  line-height: 1.0535;
+  font-size: 1.7280rem;
+  line-height: 1.7361;
 }
 
 h4, .giga {
-  font-size: 1.2656rem;
-  line-height: 1.1852;
+  font-size: 1.4400rem;
+  line-height: 1.0417;
 }
 
 h5, .mega {
-  font-size: 1.1250rem;
-  line-height: 1.3333;
+  font-size: 1.2000rem;
+  line-height: 1.2500;
 }
 
 h6, .kilo {
@@ -58,13 +82,41 @@ h6, .kilo {
 }
 
 small, .milli {
-  font-size: 0.8889rem;
-  line-height: 1.6875;
+  font-size: 0.8333rem;
+  line-height: 1.8000;
 }
 
 .micro {
-  font-size: 0.7901rem;
-  line-height: 1.8984;
+  font-size: 0.6944rem;
+  line-height: 2.1600;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 1px;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .push {
@@ -108,7 +160,6 @@ small, .milli {
 }
 
 .island {
-  margin-bottom: 1.5rem;
   padding: 1.5rem;
 }
 
