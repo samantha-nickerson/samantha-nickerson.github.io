@@ -21,14 +21,14 @@
 	padding: 0;
 }
 
-.cbp-fwslider ul li > a,
+.cbp-fwslider ul li > i,
 .cbp-fwslider ul li > div {
 	display: block;
 	text-align: center;
 	outline: none;
 }
 
-.cbp-fwslider ul li > a img {
+.cbp-fwslider ul li > i img {
 	border: none;
 	display: block;
 	margin: 0 auto;

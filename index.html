@@ -7,9 +7,7 @@
 	<link href="css/grid.css" rel="stylesheet">
 	<link href="css/buttons.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
-	<link rel="shortcut icon" href="../favicon.ico">
 	<link href="css/component.css" rel="stylesheet" type="text/css"/>
-	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700,300,200' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>
 
 	<meta name="description" content="Samantha Nickerson, Graphic Designer based in Ottawa, Canada">
@@ -61,13 +59,17 @@
 	<a class="btn ease-all" href="#contact">Contact Me</a>
 </section>
 
-	<div id="about" class="about">	
+	<div class="about">
+		<div id="about" class="nav-jump-spacer">
+		</div>
 		<h3>About</h3>
 		<h5>Hi, I’m  Samantha. Nice to meet you.</h5>
 		<p>I’m a passionate Ottawa based designer crafting products and experiences that inform, inspire and captivate the viewer. I'm thrilled by the idea of giving life to creativity and I want to share this passion with others by helping to bring their ideas to life.</p>
 	</div>
 
-	<section id="services" class="icons-section">
+	<section class="services">
+		<div id="services" class="nav-jump-spacer">
+		</div>
 		<h3>Services</h3>
 		<ul class="icons">
 			<li><img src="images/icon.svg" alt="Design Icon"></li>
@@ -77,23 +79,41 @@
 		</ul>
 	</section>
 
-	<h3>Work</h3>
+	<div class="work">
 
-	<div id="work">
+		<div id="work" class="nav-jump-spacer">
+		</div>
+		<h3>Work</h3>
 
-		<section class="container section-01">
+		<section class="section-01">
 
-			<div id="cbp-fwslider" class="cbp-fwslider">
+			<div class="cbp-fwslider container">
 				<ul>
-					<li><a href="http://bit.ly/11bWw2M"><img src="http://placehold.it/1920x800/556d77/ccbd8b" alt="img01"/></a></li>
-					<li><a href="http://bit.ly/11bWw2M"><img src="http://placehold.it/1920x800/3f515a/a79a67" alt="img02"/></a></li>
-					<li><a href="http://bit.ly/11bWw2M"><img src="http://placehold.it/1920x800/2e4047/7f7142" alt="img03"/></a></li>
+					<li><i><img src="http://placehold.it/1920x800/556d77/ccbd8b" alt="img01"/></i></li>
+					<li><i><img src="http://placehold.it/1920x800/3f515a/a79a67" alt="img02"/></i></li>
+					<li><i><img src="http://placehold.it/1920x800/2e4047/7f7142" alt="img03"/></i></li>
 				</ul>
 			</div>
 
 			<h4>Business Buddy</h4>
 
 			<p>Business Buddy is an attractive, practical and user-friendly iOS app that has been designed to eliminate all of the pain points involved with exchanging business cards. With a strong focus on simplicity, <strong>Business Buddy</strong> has been crafted to serve a singular function using the fewest screens possible. The goal was to create an effortless user experience.</p>
+
+		</section>
+
+		<section class="section-02">
+
+			<div class="cbp-fwslider container">
+				<ul>
+					<li><i><img src="http://placehold.it/1920x800/556d77/ccbd8b" alt="img01"/></i></li>
+					<li><i><img src="http://placehold.it/1920x800/3f515a/a79a67" alt="img02"/></i></li>
+					<li><i><img src="http://placehold.it/1920x800/2e4047/7f7142" alt="img03"/></i></li>
+				</ul>
+			</div>
+
+			<h4>Explore TV</h4>
+
+			<p><strong>Explore TV</strong> is a television network with a focus on wilderness exploration. The design and branding aspects of the network were created to visually represent the sense of adventure that goes along with the television shows provided by this network. The completed identity was brought forth into a unified broadcast package that includes the network’s opening title, lower thirds and transitional elements, all of which would occur on this channel. </p>
 
 		</section>
 
@@ -112,7 +132,6 @@
 	<script src="js/waypoints.min.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/modernizr.custom.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="js/jquery.cbpFWSlider.min.js"></script>
 	<script>
 		$( function() {
@@ -130,7 +149,7 @@
 			$( selector ).cbpFWSlider( 'destroy' );
 			*/
 
-			$( '#cbp-fwslider' ).cbpFWSlider();
+			$( '.cbp-fwslider' ).cbpFWSlider();
 
 		} );
 	</script>

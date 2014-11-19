@@ -81,9 +81,24 @@ p {
 	padding: 0 20% 0 20%;
 }
 
-.services {
-	background-color: #e2e2e2;
+.about {
+	position: relative;
 }
+
+.nav-jump-spacer {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	opacity: 0;
+	top: -3em;
+}
+
+.services {
+	position: relative;
+	background-color: #e2e2e2;
+	padding: 1em 0 5em;
+}
+
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited {
@@ -237,19 +252,28 @@ p {
 	}
 }
 
-.section-01 {
-	background: #e2e2e2;
-	padding: 0 0 1em;
+.btn,
+.btn:link,
+.btn:visited {
+	text-decoration: none;
+	display: inline-block;
+	padding: 0.75em 3em;
+	margin-top: 2rem;
+	border: 3px solid #fff;
+	color: #fff;
+	transition: 
+    background-color 500ms linear,
+  ;
+
+  transition: all 500ms linear;
 }
 
-.section-02 {
-	background: #e2e2e2;
-	padding: 0 0 1em;
-}
-
-.icons-section {
-	background: #e2e2e2;
-	padding: 1em 0 5em;
+.btn:hover,
+.btn:focus,
+.btn:active {
+	color: #333;
+	background-color: #fff;
+	border: 3px solid #333;
 }
 
 .icons {
@@ -288,8 +312,19 @@ p {
 	transition-delay: 250ms;
 }
 
-.work-section {
+.work {
 	padding: 1em 0 5em;
+	position: relative;
+}
+
+.section-01 {
+	background: #e2e2e2;
+	padding: 0 0 1em;
+}
+
+.section-02 {
+	background: #e2e2e2;
+	padding: 0 0 1em;
 }
 
 .copyright {
