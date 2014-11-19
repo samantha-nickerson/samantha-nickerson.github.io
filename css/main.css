@@ -32,13 +32,52 @@ body {
 .logo {
 	width: 50px;
 	padding-left: 0.4em;
-	
+}
+
+section {
+	padding: 8rem 0;
+}
+
+.intro-section {
+	background: transparent url("../images/feature-img.jpg") no-repeat center top;
+	background-size: cover;
+	margin: 0;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 h1 {
 	margin: 0;
 }
 
+h2 {
+	padding: 0 5% 0 5%;
+	margin-top: 2em;
+}
+
+h3 {
+	text-align: center;
+	text-transform: uppercase;
+	padding: 2em 10% 0 10%;
+}
+
+p {
+	text-align: center;
+	padding: 10px 10% 60px 10%; 
+	margin: 0;
+}
+
+.about h5 {
+	text-align: center;
+	font-weight: 400;
+	margin: 0;
+	padding: 0 20% 0 20%;
+}
+
+.services {
+	background-color: #e2e2e2;
+}
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited {
@@ -130,6 +169,10 @@ h1 {
 
 	}
 
+	section {
+	padding: 13rem 0;
+	}
+
 	.nav a {
 		border: 0;
 	}
@@ -160,9 +203,8 @@ h1 {
 		max-height: 5rem;
 		position:relative;
 		z-index: 100;
-		padding-bottom: 1em;
+		padding: 0.5em 0;
 		text-align: right;
-		padding-top: 0.6em;
 	}
 
 	.nav-bottom {
@@ -177,31 +219,51 @@ h1 {
 
 }
 
-.feature-img {
-	width: 100%;
-}
-
-.about p {
-	text-align: center;
-	padding: 10px 10% 50px 10%; 
-}
-
-.about h3 {
-	text-align: center;
-	text-transform: uppercase;
-	padding: 2em 10% 0 10%;
-}
-
-@media only screen and (min-width: 60em) {
-
-	.about p  {
-		padding: 10px 18% 50px 18%;
-		color: #555;
+@media only screen and (min-width: 45em) {
+	p {
+		padding: 10px 20% 60px 20%;
 	}
+}
 
-	.about h3  {
-		padding: 2em 18% 0 18%;
-	}
+.ships-section {
+	background: #e2e2e2;
+	padding: 5rem;
+}
+
+.ships {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+.ships > li {
+	display: inline-block;
+	margin: 0 2rem;
+}
+
+.ships img {
+	width: 140px;
+	opacity: 0;
+	transform: translateY(140px);
+	transition: opacity 600ms ease-out, transform 1s ease-out;
+}
+
+.ships img.js-ships-animate {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.ships li:first-child img {
+	transition-delay: 100ms;
+}
+
+.ships li:nth-child(2) img {
+	transition-delay: 200ms;
+}
+
+.ships li:last-child img {
+	transition-delay: 250ms;
 }
 
 .copyright {
