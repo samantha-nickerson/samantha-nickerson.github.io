@@ -62,6 +62,12 @@ h3 {
 	padding: 2em 10% 0 10%;
 }
 
+h4 {
+	text-align: center;
+	text-transform: uppercase;
+	padding: 2em 10% 0 10%;
+}
+
 p {
 	text-align: center;
 	padding: 10px 10% 60px 10%; 
@@ -137,6 +143,12 @@ p {
 
 	color: #e5756b;
 	background-color: #fbfbfb;
+}
+
+.nav .current,
+.nav .current:link,
+.nav .current:visited {
+	color: #e5756b;
 }
 
 .nav-bottom {
@@ -225,45 +237,59 @@ p {
 	}
 }
 
-.ships-section {
+.section-01 {
 	background: #e2e2e2;
-	padding: 5rem;
+	padding: 0 0 1em;
 }
 
-.ships {
+.section-02 {
+	background: #e2e2e2;
+	padding: 0 0 1em;
+}
+
+.icons-section {
+	background: #e2e2e2;
+	padding: 1em 0 5em;
+}
+
+.icons {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
 	text-align: center;
 }
 
-.ships > li {
+.icons > li {
 	display: inline-block;
 	margin: 0 2rem;
 }
 
-.ships img {
+.icons img {
 	width: 140px;
 	opacity: 0;
 	transform: translateY(140px);
 	transition: opacity 600ms ease-out, transform 1s ease-out;
 }
 
-.ships img.js-ships-animate {
+.icons img.js-icons-animate {
 	opacity: 1;
 	transform: translateY(0);
 }
 
-.ships li:first-child img {
+.icons li:first-child img {
 	transition-delay: 100ms;
 }
 
-.ships li:nth-child(2) img {
+.icons li:nth-child(2) img {
 	transition-delay: 200ms;
 }
 
-.ships li:last-child img {
+.icons li:last-child img {
 	transition-delay: 250ms;
+}
+
+.work-section {
+	padding: 1em 0 5em;
 }
 
 .copyright {
