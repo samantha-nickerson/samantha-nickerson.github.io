@@ -348,20 +348,23 @@ p {
 	color: #e5756b;
 }
 
+.social ul {
+	padding: 0;
+}
+.social li {
+	text-align: center;
+}
+
 .social a,
 .social a:link
 .social a:visited {
-
-	color: #222;
-	text-align: center;
+	color: #e5756b;
 }
 
 .social a:hover,
 .social a:focus,
 .social a:active {
-
-	color: #e5756b;
-	background-color: #fbfbfb;
+	color: #222;
 }
 
 .footer {
