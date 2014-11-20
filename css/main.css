@@ -165,12 +165,6 @@ p {
 	background-color: #fbfbfb;
 }
 
-.nav .current,
-.nav .current:link,
-.nav .current:visited {
-	color: #e5756b;
-}
-
 .nav-top {
 	max-height: 0;
 	overflow: hidden;
@@ -313,7 +307,6 @@ p {
 }
 
 .work {
-	padding: 1em 0 5em;
 	position: relative;
 }
 
@@ -323,16 +316,52 @@ p {
 }
 
 .contact {
+	position: relative;
 	background: #fff;
-	padding: 0 0 1em;
+	padding: 0 0 4em;
 }
 
 .contact p {
 	padding-bottom: 0;
 }
 
+.contact ul {
+	list-style-type: none;
+}
+
+.contact a,
+.contact a:link
+.contact a:visited {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #e5756b;
+	font-weight: 400;
+}
+
+.contact a:hover,
+.contact a:focus,
+.contact a:active {
+	color: #999;
+}
+
 .contact h5 {
 	color: #e5756b;
+}
+
+.social a,
+.social a:link
+.social a:visited {
+
+	color: #222;
+	text-align: center;
+}
+
+.social a:hover,
+.social a:focus,
+.social a:active {
+
+	color: #e5756b;
+	background-color: #fbfbfb;
 }
 
 .footer {
