@@ -68,6 +68,11 @@ h4 {
 	padding: 2em 10% 0 10%;
 }
 
+h5 {
+	text-align: center;
+	padding: 0 10% 0 10%;
+}
+
 p {
 	text-align: center;
 	padding: 10px 10% 60px 10%; 
@@ -166,10 +171,6 @@ p {
 	color: #e5756b;
 }
 
-.nav-bottom {
-	margin-top: 1.5em;
-}
-
 .nav-top {
 	max-height: 0;
 	overflow: hidden;
@@ -265,7 +266,7 @@ p {
     background-color 500ms linear,
   ;
 
-  transition: all 500ms linear;
+  transition: all 100ms linear;
 }
 
 .btn:hover,
@@ -273,7 +274,6 @@ p {
 .btn:active {
 	color: #333;
 	background-color: #fff;
-	border: 3px solid #333;
 }
 
 .icons {
@@ -317,14 +317,26 @@ p {
 	position: relative;
 }
 
-.section-01 {
+.work-section {
 	background: #e2e2e2;
 	padding: 0 0 1em;
 }
 
-.section-02 {
-	background: #e2e2e2;
+.contact {
+	background: #fff;
 	padding: 0 0 1em;
+}
+
+.contact p {
+	padding-bottom: 0;
+}
+
+.contact h5 {
+	color: #e5756b;
+}
+
+.footer {
+	background-color: #222;
 }
 
 .copyright {
@@ -333,6 +345,5 @@ p {
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
 	color: #fff;
-	background-color: #222;
 	margin: 0;
 }
