@@ -316,6 +316,11 @@ p {
 .icons img.js-icons-animate {
 	opacity: 1;
 	transform: translateY(0);
+	-webkit-animation: transition-delay 1s linear forwards;
+	-ms-animation: transition-delay 1s linear forwards;
+	-moz-animation: transition-delay 1s linear forwards;
+	-o-animation: transition-delay 1s linear forwards;
+	animation: transition-delay 1s linear forwards;
 }
 
 .icons li:first-child img {
