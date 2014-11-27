@@ -195,42 +195,6 @@
 	<script src="js/waypoints.min.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/modernizr.custom.js"></script>
-	<script src="js/jquery.cbpFWSlider.min.js"></script>
-	<script>
-        $(function() {
-          $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-              var target = $(this.hash);
-              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-              if (target.length) {
-                $('html,body').animate({
-                  scrollTop: target.offset().top
-                }, 1000);
-                return false;
-              }
-            }
-          });
-        });
-    </script>
-	<script>
-		$( function() {
-			/*
-			- how to call the plugin:
-			$( selector ).cbpFWSlider( [options] );
-			- options:
-			{
-				// default transition speed (ms)
-				speed : 500,
-				// default transition easing
-				easing : 'ease'
-			}
-			- destroy:
-			$( selector ).cbpFWSlider( 'destroy' );
-			*/
 
-			$( '.cbp-fwslider' ).cbpFWSlider();
-
-		} );
-	</script>
 </body>
 </html>
