@@ -58,6 +58,22 @@ a:focus {
 	padding-left: 0.4em;
 }
 
+section {
+	padding: 8rem 0;
+}
+
+.intro-section {
+	background: transparent url("../images/feature-img.jpg") no-repeat center top;
+	background-size: cover;
+	margin: 0;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h1 {
+	margin: 0;
+}
 
 h2 {
 	padding: 0 5% 0 5%;
