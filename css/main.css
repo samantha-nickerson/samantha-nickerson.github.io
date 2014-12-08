@@ -348,6 +348,10 @@ iframe {
 	margin: 0 auto;
 }
 
+.video {
+	background-color: #546d77;
+}
+
 .video ul {
 	list-style: none;
 }
