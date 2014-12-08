@@ -343,8 +343,13 @@ p {
 	padding: 0 0 1em;
 }
 
-.video {
-	width: 100%;
+iframe {
+	display: block;
+	margin: 0 auto;
+}
+
+.video ul {
+	list-style: none;
 }
 
 .contact-img { 
