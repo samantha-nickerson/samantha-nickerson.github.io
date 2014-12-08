@@ -135,6 +135,12 @@ p {
 	padding: 1em 0 5em;
 }
 
+.services h2 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #879999;
+}
+
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited {

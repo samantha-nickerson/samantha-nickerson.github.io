@@ -51,7 +51,7 @@
 }
 
 .cbp-fwslider nav span:hover {
-	color: #e5756b;
+	color: #313131;
 }
 
 .cbp-fwslider nav span.cbp-fwnext {
@@ -90,6 +90,6 @@
 	}
 
 	.cbp-fwdots span.cbp-fwcurrent {
-		background: #e5756b;
+		background: #afa376;
 	}
 }
