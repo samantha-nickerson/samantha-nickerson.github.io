@@ -77,6 +77,9 @@ h1 {
 }
 
 h2 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #879999;
 	padding: 2em 10% 0 10%;
 }
 
@@ -103,12 +106,6 @@ p {
 	margin: 0;
 }
 
-
-.about h2 {
-	text-align: center;
-	text-transform: uppercase;
-}
-
 .about h5 {
 	text-align: center;
 	font-weight: 400;
@@ -133,12 +130,6 @@ p {
 	position: relative;
 	background-color: #c8d7d4;
 	padding: 1em 0 5em;
-}
-
-.services h2 {
-	text-align: center;
-	text-transform: uppercase;
-	color: #879999;
 }
 
 .nav-btn,
@@ -348,11 +339,15 @@ p {
 }
 
 .work-section {
-	background: #e2e2e2;
+	background: #f4f4f4;
 	padding: 0 0 1em;
 }
 
-.subscribe { 
+.video {
+	width: 100%;
+}
+
+.contact-img { 
 	background: url('../images/b.jpg') no-repeat center center; 
 	background-size: cover; 
 	background-attachment: fixed; 
@@ -414,4 +409,28 @@ ul.social-buttons li {
 	padding-bottom: 1.5rem;
 	color: #fff;
 	margin: 0;
+}
+
+.error {
+	position: relative;
+	background-color: #c8d7d4;
+	padding: 3em 0 5em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.error-icon {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+.error-icon > li {
+	display: inline-block;
+	margin: 0 2rem;
+}
+
+.error-icon img {
+	width: 140px;
 }
