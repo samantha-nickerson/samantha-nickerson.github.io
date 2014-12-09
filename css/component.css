@@ -46,7 +46,7 @@
 	font-size: 50px;
 	text-align: center;
 	margin-top: -50px;
-	line-height: 100px;
+	line-height: 70px;
 	cursor: pointer;
 	font-weight: normal;
 	margin: 0 2px 0 2px
@@ -54,6 +54,8 @@
 
 .cbp-fwslider nav span:hover {
 	color: #afa376;
+	background-color: rgba(255,255,255,0.5);
+	border: 2px solid #afa376;
 }
 
 .cbp-fwslider nav span.cbp-fwnext {
