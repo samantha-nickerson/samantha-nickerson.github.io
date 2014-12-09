@@ -348,6 +348,26 @@ iframe {
 	margin: 0 auto;
 }
 
+.embed {
+	margin-left: 0;
+	margin-right: 0;
+	position: relative;
+	width: 100%;
+}
+
+.embed--16by9 {
+	/* HD TV */
+	padding-top: 56.25%;
+}
+
+.embed__item {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
 .video {
 	background-color: #546d77;
 }

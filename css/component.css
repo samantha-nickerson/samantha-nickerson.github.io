@@ -37,17 +37,19 @@
 
 .cbp-fwslider nav span {
 	position: absolute;
-	top: 50%;
+	top: 30%;
 	width: 100px;
 	height: 100px;
 	background: none;
-	color: #313131;
+	color: #ddd;
+	border-radius: 50%;
 	font-size: 50px;
 	text-align: center;
 	margin-top: -50px;
 	line-height: 100px;
 	cursor: pointer;
 	font-weight: normal;
+	margin: 0 2px 0 2px
 }
 
 .cbp-fwslider nav span:hover {
