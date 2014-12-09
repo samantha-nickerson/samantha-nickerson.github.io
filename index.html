@@ -5,7 +5,9 @@
 	<title>Samantha Nickerson · Graphic Designer · Ottawa, Canada</title>
 	<link href="css/typography.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
-	<link href="css/component.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" href="flex-slider/flexslider.css" type="text/css">
+	<!--<link href="css/component.css" rel="stylesheet" type="text/css"/> -->
+
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -110,7 +112,24 @@
 			<h2>Work</h2>
 
 			<section class="work-section">
+				<div class="flexslider">
+				  <ul class="slides">
+					<li>
+	                	<div class="embed embed--16by9"><iframe class="embed__item" src="//player.vimeo.com/video/110746645" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+	                </li>
+					<li>
+					  <img src="http://placehold.it/1190x700/3f515a/a79a67" alt="Image 01"/>
+					</li>
+					<li>
+					  <img src="http://placehold.it/1190x700/2e4047/7f7142" alt="Image 01"/>
+					</li>
+				  </ul>
+				</div>
+				<h4>Business Buddy</h4>
+				<p>Business Buddy is an attractive, practical and user-friendly iOS app that has been designed to eliminate all of the pain points involved with exchanging business cards. With a strong focus on simplicity, Business Buddy has been crafted to serve a singular function using the fewest screens possible. The goal was to create an effortless user experience.</p>
+			</section>
 
+			<!-- old slider
 				<div class="cbp-fwslider container">
 					<ul>
 						<li><i><img src="images/business-buddy01.jpg" alt="Image 01"/></i></li>
@@ -222,6 +241,7 @@
 				<p>The Toronto Wildlife Centre is a registered charity (supported primarily by donations) that strives to help people and wildlife coexist peacefully. The completed logo and identity work for the Toronto Wildlife Centre has been designed to give the company a more modern and simplistic brand that better represents what they strive so hard to achieve. The symbol was created to take on both horizontal and vertical layouts, while maintaining a simplistic beauty that can be reproduced at any reasonable size.</p>
 
 			</section>
+		-->
 
 		</div>
 
@@ -261,7 +281,7 @@
 	<script src="js/waypoints.min.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/modernizr.custom.js"></script>
-	<script src="js/jquery.cbpFWSlider.min.js"></script>
+	<!--<script src="js/jquery.cbpFWSlider.min.js"></script>-->
 	<script>
         $(function() {
           $('a[href*=#]:not([href=#])').click(function() {
@@ -278,6 +298,20 @@
           });
         });
     </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="flex-slider/jquery.flexslider.js"></script>
+	<script type="text/javascript" charset="utf-8">
+  	$(window).load(function() {
+    $('.flexslider').flexslider({
+		animation: "slide",
+		slideshowSpeed: 4000,
+		smoothHeight: true,	
+		pauseOnHover: true,
+		});
+  	});
+	</script>
+ <!--   
 	<script>
 		$( function() {
 			/*
@@ -298,5 +332,6 @@
 
 		} );
 	</script>
+-->
 </body>
 </html>

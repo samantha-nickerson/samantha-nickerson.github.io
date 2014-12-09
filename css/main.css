@@ -343,6 +343,21 @@ p {
 	padding: 0 0 1em;
 }
 
+/* Feature Image Slider */
+	
+.flexslider {
+	max-width: 1000px;
+	margin: 1px auto;
+	margin-bottom: 4rem;
+}
+
+@media only screen and (min-width: 25em){
+	
+	.flexslider {
+		margin-top: -1rem;
+	}
+}
+
 iframe {
 	display: block;
 	margin: 0 auto;
@@ -366,14 +381,6 @@ iframe {
 	position: absolute;
 	top: 0;
 	width: 100%;
-}
-
-.video {
-	background-color: #546d77;
-}
-
-.video ul {
-	list-style: none;
 }
 
 .contact-img { 
