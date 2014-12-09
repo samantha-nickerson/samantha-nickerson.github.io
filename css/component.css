@@ -38,20 +38,26 @@
 .cbp-fwslider nav span {
 	position: absolute;
 	top: 50%;
-	width: 100px;
-	height: 100px;
+	width: 70px;
+	height: 70px;
 	background: none;
-	color: #313131;
+	color: #ddd;
+	border: 2px solid #ddd;
+	background-color: rgba(255,255,255,0.1);
+	border-radius: 50%;
 	font-size: 50px;
 	text-align: center;
 	margin-top: -50px;
-	line-height: 100px;
+	line-height: 70px;
 	cursor: pointer;
 	font-weight: normal;
+	margin: 0 .5em 0 .5em;
 }
 
 .cbp-fwslider nav span:hover {
 	color: #afa376;
+	background-color: rgba(255,255,255,0.5);
+	border: 2px solid #afa376;
 }
 
 .cbp-fwslider nav span.cbp-fwnext {
