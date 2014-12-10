@@ -63,7 +63,7 @@ section {
 }
 
 .intro-section {
-	background: transparent url("../images/feature.jpg") no-repeat center top;
+	background: transparent url("../images/feature-img.jpg") no-repeat center top;
 	background-size: cover;
 	background-attachment: fixed;
 	margin: 0;
@@ -377,7 +377,7 @@ iframe {
 }
 
 .contact-img { 
-	background: url('../images/b.jpg') no-repeat center center; 
+	background: url('../images/contact-img.jpg') no-repeat center center; 
 	background-size: cover; 
 	background-attachment: fixed; 
 	padding: 120px 0 140px; 
