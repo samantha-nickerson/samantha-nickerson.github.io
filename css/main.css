@@ -62,12 +62,6 @@ section {
 	padding: 8rem 0;
 }
 
-.flex-img {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-}
-
 .intro-section {
 	background: transparent url("../images/feature.jpg") no-repeat center top;
 	background-size: cover;
