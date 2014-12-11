@@ -266,6 +266,11 @@ p {
 		background-color: #fbfbfb;
 	}
 
+	.intro-section {
+	background-size: cover;
+	background-attachment: fixed;
+	}
+
 }
 
 @media only screen and (min-width: 45em) {
