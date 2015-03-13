@@ -46,7 +46,7 @@ a:focus {
 .masthead {
 	background-color: #f4f4f4;
 	padding-top: 0.6em;
-	border-bottom: 2px solid #a1a4b2;
+	border-bottom: 2px solid #afa376;
 	position: fixed;
 	z-index: 100;
 	width: 100%;
@@ -72,6 +72,11 @@ section {
 	text-transform: uppercase;
 }
 
+.intro-logo {
+	width: 50%;
+	margin-top: 5em;
+}
+
 h1 {
 	margin: 0;
 }
@@ -79,7 +84,7 @@ h1 {
 h2 {
 	text-align: center;
 	text-transform: uppercase;
-	color: #879999;
+	color: #43535f;
 	padding: 2em 10% 0 10%;
 }
 
@@ -93,6 +98,7 @@ h4 {
 	text-align: center;
 	text-transform: uppercase;
 	padding: 2em 10% 0 10%;
+	color: #afa376;
 }
 
 h5 {
@@ -104,6 +110,7 @@ p {
 	text-align: center;
 	padding: 10px 10% 60px 10%; 
 	margin: 0;
+	color: #43535f;
 }
 
 .about h5 {
@@ -115,7 +122,7 @@ p {
 
 .about {
 	position: relative;
-	color: #879999;
+	color: #43535f;
 }
 
 .nav-jump-spacer {
@@ -128,7 +135,7 @@ p {
 
 .services {
 	position: relative;
-	background-color: #c8d7d4;
+	background-color: #f4f4f4;
 	padding: 1em 0 5em;
 }
 
@@ -161,7 +168,7 @@ p {
 }
 
 .nav {
-	background-color: #879999;
+	background-color: #f4f4f4;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -180,15 +187,15 @@ p {
 	display: block;
 	padding: 0.5em 10px;
 
-	color: #fff;
+	color: #afa376;
 	text-decoration: none;
 }
 
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-	color: #879999;
-	background-color: #c8d7d4;
+	color: #f4f4f4;
+	background-color: #afa376;
 }
 
 .nav-top {
@@ -229,7 +236,7 @@ p {
 	.nav a:hover,
 	.nav a:focus,
 	.nav a:active {
-
+		color: #43535f;
 		background-color: #f4f4f4;
 	}
 
@@ -271,6 +278,10 @@ p {
 	background-attachment: fixed;
 	}
 
+	.intro-logo {
+	width: 30%;
+	}
+
 }
 
 @media only screen and (min-width: 45em) {
@@ -298,6 +309,16 @@ p {
 	background-color: #fff;
 }
 
+.underline {
+  display: block;
+  width: 5em;
+  height: 0.18em;
+  background: #afa376;
+  margin: 0 auto;
+  margin-top: -50px;
+  margin-bottom: 5em; 
+}
+
 .icons {
 	margin: 0;
 	padding: 0;
@@ -311,8 +332,7 @@ p {
 }
 
 .icons img {
-	width: 140px;
-	height: 140;
+	width: 100%;
 	opacity: 0;
 	-webkit-transform: translateY(140px);
 	-ms-transform: translateY(140px);
@@ -406,7 +426,7 @@ ul.social-buttons li {
 	width: 40px; 
 	height: 40px; 
 	border-radius: 50%; 
-	background-color: #828282; 
+	background-color: #43535f; 
 	display: inline-block; 
 	color: #fff; 
 	font-size: 17px; 
@@ -435,7 +455,7 @@ ul.social-buttons li {
 }
 
 .footer {
-	background-color: #27282d;
+	background-color: #43535f;
 }
 
 .copyright {
